@@ -1,0 +1,37 @@
+FOR:
+Esta opcion nos va permitir repetir una "receta" (una serie de acciones)
+tantas veces
+como consideremos necesario, o hasta que se nos acaben los "ingredientes".
+Por ejemplo, para producir 1 Kg de pan, necesitamos:
+- 500 gr de harina
+- 500 ml de agua
+
+Si contamos con 2Kg de Harina y 1 litro de agua, podremos "aplicar"
+nuestra receta 2 veces, es decir, hasta que se nos acabe el "agua".
+Porque nuestra receta sin agua, deja "de funcionar"
+
+
+&&
+Permite validar si se cumplen las condiciones que necesitemos.
+Por ej:
+No vamos a entrenar si:
+- Condicion 1: llueve
+- Condicion 2: hace frio
+En este caso, con el operador && indicamos que dejaremos de entrenar
+solo si se cumplen las dos condiciones a la vez (llueve "Y" hace frio)
+Si solo se cumple una condición, iremos a entrenar
+
+||
+Este operador nos permite validar si se cumple al menos una de las
+condiciones que definimos
+En el ejemplo anterior, vimos que no iriamos a entrenar si se cumplen
+las dos condiciones.
+En este caso, no iremos a entrenar si se cumple al menos una de las
+condiciones. Es decir, si llueve "O" hace frio, no entrenaremos.
+
+!
+Este operador es como anteponer un signo "negativo" a nuestras afirmaciones.
+Por ejemplo:
+FRASE: "voy a ir a dormir temprano"
+Si a la frase antes le ponemos el operador "!", entonces estamos diciendo:
+!FRASE: "no voy a ir a dormir temprano"
