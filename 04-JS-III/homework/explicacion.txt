@@ -1,0 +1,5 @@
+Arrays
+
+Podemos entender un array como un conjunto de elementos. Por ejemplo un array podría ser la lista de compras para el supermercado, que contará
+con distintos elementos.
+Otro array puede ser una lista de cosas a llevar para un viaje, o tareas a realizar.
