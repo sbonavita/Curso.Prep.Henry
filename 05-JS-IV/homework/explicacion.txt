@@ -1,0 +1,22 @@
+Objetos:
+En programación un objeto justamente es algo, podríamos decir una cosa, que definimos para luego realizar acciones.
+Por ejemplo un objeto puede ser un auto, una persona, una casa, un listado de ingredientes
+
+Propiedades:
+Cada objeto puede tener distintas caracteristicas, que se denominan propiedades.
+Por ejemplo: el objeto auto, tiene como caracteristicas: marca, cantidad de puertas, precio, color
+Estas características siempre van a tener un nombre (key) y un valor (value)
+
+
+Métodos:
+Si una caracteristica del objeto indica una serie de acciones a realizar (función), en lugar de propiedad pasa a llamarse método.
+Por ejemplo, en un objeto auto, el motor es una caracterísitca. Si esa característica explicara cómo funciona el motor, podríamos llamarlo método del auto.
+
+Bucle for in:
+Un bucle permite recorrer todas las Propiedades (caracteristicas) que tiene un objeto.
+
+Notación de puntos vs corchetes:
+Cuando queremos llamar una catacterística(propiedad) de un objeto, podemos poner el nombre del objeto seguido de un punto y luego el nombre de la caracteristica.
+De esta forma se la conoce como notación de punto. Tiene como ventaja que es muy simple de escribir, pero tiene limitación si se quiere llamar a otra variable.
+Otra forma de llamar a una caracteristica de un objeto es escribir el nombre del objeto seguido de corchetes, y dentro de ellos, entre comillas el nombre de la caracteristica.
+Si bien es un poco mas "lenta" para escribirlo, esta forma permite poner dentro de los corchetes variables
